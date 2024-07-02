@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+X-Nemo-Application-Type=silica-qt5
+Icon=ru.bmstu.MobAdaptUiQmake
+Exec=/usr/bin/ru.bmstu.MobAdaptUiQmake
+Name=MobAdaptUiQmake
+Name[ru]=MobAdaptUiQmake
+
+[X-Application]
+Permissions=Sensors;DeviceInfo;Pictures
+OrganizationName=ru.bmstu
+ApplicationName=MobAdaptUiQmake
+ExecDBus=/usr/bin/ru.bmstu.MobAdaptUiQmake
