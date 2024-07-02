@@ -23,7 +23,12 @@ HEADERS += \
     src/trainingdata.h
 
 DISTFILES += \
+    AUTHORS.md \
+    LICENSE.BSD-3-Clause.md \
     README.md \
+    data/xor/xordata.txt \
+    data/xor/xordataT.txt \
+    qml/pages/MainPage2.qml \
     rpm/ru.bmstu.MobAdaptUiQmake.spec \
 
 AURORAAPP_ICONS = 86x86 108x108 128x128 172x172

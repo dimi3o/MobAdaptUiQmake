@@ -14,19 +14,19 @@ Page {
     Column {
         width: parent.width
         spacing: Theme.paddingMedium
-    PageHeader {
-        objectName: "pageHeader"
-        title: qsTr("MobAdaptUiQmake")
-        extraContent.children: [
-            IconButton {
-                objectName: "aboutButton"
-                icon.source: "image://theme/icon-m-about"
-                anchors.verticalCenter: parent.verticalCenter
+        PageHeader {
+            objectName: "pageHeader"
+            title: qsTr("MobAdaptUiQmake")
+            extraContent.children: [
+                IconButton {
+                    objectName: "aboutButton"
+                    icon.source: "image://theme/icon-m-about"
+                    anchors.verticalCenter: parent.verticalCenter
 
-                onClicked: pageStack.push(Qt.resolvedUrl("AboutPage.qml"))
-            }
-        ]
-    }
+                    onClicked: pageStack.push(Qt.resolvedUrl("AboutPage.qml"))
+                }
+            ]
+        }
         Rectangle {
             id: colorRect
             width: 200
