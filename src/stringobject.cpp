@@ -19,22 +19,22 @@ void StringObject::setValue(const QString &value)
     if (m_value == value)
         return;
     m_value = "Message "+value;
-//    std::cout.write(m_value.toLocal8Bit().data(), m_value.size());
-//    vector<unsigned> topology;
-//    vector<vector<double>> inputValsA, targetValuesA;
-//    vector<double> inputVals, targetValues, resultValues;
-//    int trainingPass = 0;
-//    int epochs=0;
-//    bool test=false;
-//    bool testFile=false;
-//    long double minError=0.01;
-//    int maxEpochs=10;
+    std::cout.write(m_value.toLocal8Bit().data(), m_value.size());
+    vector<unsigned> topology;
+    vector<vector<double>> inputValsA, targetValuesA;
+    vector<double> inputVals, targetValues, resultValues;
+    int trainingPass = 0;
+    int epochs=0;
+    bool test=false;
+    bool testFile=false;
+    long double minError=0.01;
+    int maxEpochs=10;
 
-//    TrainingData trainData("data\\xor\\xordata.txt");
-//    long double eta,momentum;
-//    string transferFunction;
+    TrainingData trainData("../data/xor/xordata.txt");
+    long double eta,momentum;
+    string transferFunction;
 
-//    trainData.getTopology(topology);
+    trainData.getTopology(topology);
 //    trainData.getEta(eta);
 //    trainData.getMomentum(momentum);
 //    trainData.getTransferFunction(transferFunction);

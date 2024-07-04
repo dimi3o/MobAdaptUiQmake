@@ -8,6 +8,7 @@ PKGCONFIG += \
 SOURCES += \
     src/connection.cpp \
     src/main.cpp \
+    src/modelinfo.cpp \
     src/net.cpp \
     src/neural-net.cpp \
     src/neuron.cpp \
@@ -17,6 +18,7 @@ SOURCES += \
 HEADERS += \
     src/connection.h \
     src/layer.h \
+    src/modelinfo.h \
     src/net.h \
     src/neuron.h \
     src/stringobject.h \
