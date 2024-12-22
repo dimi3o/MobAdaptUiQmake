@@ -1,5 +1,7 @@
 #include "trainingdata.h"
 
+TrainingData::TrainingData() {}
+
 bool TrainingData::isEof(){
     return trainingDataFile.eof();
 }

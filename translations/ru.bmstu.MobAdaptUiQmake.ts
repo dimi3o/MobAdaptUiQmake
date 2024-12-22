@@ -42,7 +42,7 @@
 <context>
     <name>MainPage2</name>
     <message>
-        <location filename="../qml/pages/MainPage2.qml" line="16"/>
+        <location filename="../qml/pages/MainPage2.qml" line="15"/>
         <source>MobAdaptUiQmake</source>
         <translation type="unfinished">MobAdaptUiQmake</translation>
     </message>

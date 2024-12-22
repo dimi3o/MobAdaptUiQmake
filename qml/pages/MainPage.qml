@@ -1,6 +1,6 @@
 import QtQuick 2.0
 import Sailfish.Silica 1.0
-import ru.bmstu.MobAdaptUi 1.0 //----second way CPPtoQML
+import StringObject 1.0 //----second way CPPtoQML
 
 Page {
     objectName: "mainPage"

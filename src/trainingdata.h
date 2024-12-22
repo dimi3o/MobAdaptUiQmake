@@ -8,6 +8,7 @@ using namespace std;
 
 class TrainingData{
 public:
+    TrainingData();
     TrainingData(const string filename);
     bool isEof();
     void getTopology(vector<unsigned> &topology);
