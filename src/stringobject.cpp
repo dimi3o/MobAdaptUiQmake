@@ -18,10 +18,11 @@ void StringObject::setValue(const QString &value)
 {
     if (m_value == value)
         return;
-//    m_value = "Message "+value;
 
     if (m_value == "init"){
-        trainData = TrainingData("/usr/share/ru.bmstu.MobAdaptUi/lib/trainingData.txt");
+        //"/usr/share/ru.bmstu.MobAdaptUiQmake/trainingData.txt"
+        trainData = TrainingData("/usr/share/ru.bmstu.MobAdaptUiQmake/data/trainingData.txt"); //"../data/xor/xordata.txt"
+        cout << trainData.isEof() << endl;
         trainData.getTopology(topology);
         myNet = Net(topology);
         trainingPass = 0;

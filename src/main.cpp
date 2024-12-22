@@ -4,7 +4,7 @@
 #include "stringobject.h"
 
 int main(int argc, char *argv[])
-{
+{  
     QScopedPointer<QGuiApplication> application(Aurora::Application::application(argc, argv));
     application->setOrganizationName(QStringLiteral("ru.bmstu"));
     application->setApplicationName(QStringLiteral("MobAdaptUiQmake"));

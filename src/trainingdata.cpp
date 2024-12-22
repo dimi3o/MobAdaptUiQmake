@@ -1,4 +1,7 @@
 #include "trainingdata.h"
+#include "iostream"
+
+using namespace std;
 
 TrainingData::TrainingData() {}
 
